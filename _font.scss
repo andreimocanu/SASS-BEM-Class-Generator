@@ -1,0 +1,24 @@
+///
+/// SASS BEM Class Generator
+///
+/// @author andreimocanu
+///
+/// @example
+///   @include e(element) {
+///     font-size: 10px;
+///   }
+///   @include m(modifier) {
+///     font-size: 15px;
+///   }
+///
+
+@mixin e($element) {
+    &__#{$element} {
+        @content;
+    }
+}
+@mixin m($modifier) {
+    &--#{$modifier} {
+        @content;
+    }
+}
