@@ -7,13 +7,13 @@ An easy to use mixin for generating classess using BEM elements and modifiers na
 <pre>
 .selector {
 
-	@include e(element) {
-		font-size: 10px;
-	}
+  @include e(element) {
+    font-size: 10px;
+  }
 
-	@include m(modifier) {
-		font-size: 15px;
-	}
+  @include m(modifier) {
+    font-size: 15px;
+  }
 }
 </pre>
 
@@ -21,10 +21,10 @@ An easy to use mixin for generating classess using BEM elements and modifiers na
 
 <pre>
 .selector__element {
-	font-size: 10px;
+  font-size: 10px;
 }
 
 .selector--modifier {
-	font-size: 15px;
+  font-size: 15px;
 }
 </pre>
